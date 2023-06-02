@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #9BABB8;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 500px;
+    height: 380px;
+    padding: 2%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.textos h3{
+    font-size: 1.8rem;
+}
+
+.textos span,
+.textos span .menorValor, .maiorValor{
+    font-size: 1.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #27374D;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.form input{
+    width: 45px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #9BABB8;
+    padding: 3%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.form button{
+    width: 60px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: purple;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.dicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dicas .dica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dica span{
+    font-size: 1.3rem;
+    color: #27374D;
+}
+
+.acerto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.acerto i{
+    font-size: 3rem;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acerto h3{
+    font-size: 1.6rem;
+}
+
+.acerto span,
+.acerto span strong{
+    font-size: 1.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #27374D;
+}
+
+.acerto .jogarNovamente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid purple;
+    outline: none;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 150px;
+    height: 60px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.acerto button:hover{
+    background-color: purple;
+    color: white;
+    border: none;
+    outline: none;
+}

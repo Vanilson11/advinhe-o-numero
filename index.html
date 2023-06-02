@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advinhe o número</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <main class="container">
+        <div class="textos">
+            <h3>Jogo da Advinhação</h3>
+            <span>Advinhe um número entre <strong class="menorValor">0</strong> e <strong class="maiorValor">10</strong></span>
+        </div>
+
+        <div class="form">
+            <input type="text" name="numForm" id="numForm">
+            <button class="botao">Tentar</button>
+        </div>
+
+        <div class="dicas">
+            <!-- <div class="dica">
+                <span>O número secreto é <i class="ph-fill ph-arrow-fat-up"></i></span>
+            </div> -->
+        </div>
+    </main>
+
+    <script src="app/main.js"></script>
+    <script src="app/verificaValorValido.js"></script>
+</body>
+</html>
